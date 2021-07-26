@@ -1,11 +1,16 @@
-If you make use of any of this code or examples in a scientific publication, please consider this repository:
+If you make use of any of this code or examples in a scientific publication, please consider citing our paper (Bobra et al., 2021, submitted to the Astrophysical Journal Supplement Series) and the corresponding version of the code.
 
-Monica G. Bobra. (2021, July 26). mbobra/SMARPs: SMARPs 0.1.0 (2021-07-26) (Version v0.1.0). Zenodo. http://doi.org/10.5281/zenodo.5138025.
+For the software repository (currently at v0.1.0):
+
+Monica G. Bobra, Paul J. Wright, Xudong Sun (孙旭东), & Michael J. Turmon. (2021, July 26). mbobra/SMARPs: SMARPs 0.1.0 (2021-07-26) (Version v0.1.0). Zenodo. http://doi.org/10.5281/zenodo.5138025
 
 Bibtex entry:
 
 @misc{monica_g_bobra_2021_5138025,
-  author       = {Monica G. Bobra},
+  author       = {Monica G. Bobra and
+                  Paul J. Wright and
+                  Xudong Sun (孙旭东) and
+                  Michael J. Turmon},
   title        = {mbobra/SMARPs: SMARPs 0.1.0 (2021-07-26)},
   month        = jul,
   year         = 2021,
