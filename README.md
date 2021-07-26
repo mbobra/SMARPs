@@ -8,7 +8,7 @@ Users can access these data with a [SunPy](https://sunpy.org/) affiliated packag
 
 ### Contents
 
-This repository contains two folders. The `example_gallery` folder contains several notebooks and functions designed to help users understand the SMARP data and how to use the SMARP and SHARP data together. The `paper` folder contains notebooks that reproduce the figures and analysis in the SMARP paper (Bobra et al. 2021). To use these notebooks together with all the requisite Python packages, create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) called smarp using the provided `smarp.yml` environment file like this:
+This repository contains two folders. The `example_gallery` folder contains several notebooks and functions designed to help users understand the SMARP data and how to use the SMARP and SHARP data together. The `paper` folder contains notebooks that reproduce the figures and analysis in the SMARP paper (submitted to the *Astrophysical Journal Supplement Series*). To use these notebooks together with all the requisite Python packages, create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) called smarp using the provided `smarp.yml` environment file like this:
 
 ```
 > conda env create -f smarp.yml
@@ -30,4 +30,4 @@ This repository contains two folders. The `example_gallery` folder contains seve
 
 ### Citation
 
-If you use the Space-weather MDI Active Region Patch data in your research, please consider this repository. 
+If you use the Space-weather MDI Active Region Patch data in your research, please consider citing this repository. 
