@@ -30,7 +30,7 @@ This repository contains two folders. The `example_gallery` folder contains seve
 
 ### Citation
 
-If you use the Space-weather MDI Active Region Patch data in your research, please consider citing our paper (Bobra et al., 2021, submitted to the *Astrophysical Journal Supplement Series*) and this software repository. Here is the bibtex entry for the repository:
+If you use the Space-weather MDI Active Region Patch data in your research, please consider citing our paper (Bobra et al. 2021, submitted to the *Astrophysical Journal Supplement Series*) and this software repository. Here is the bibtex entry for the repository:
 
 ```
 @misc{monica_g_bobra_2021_5138025,
