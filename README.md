@@ -4,7 +4,7 @@ We derived Space-weather MDI Active Region Patches, or SMARPs, from maps of the 
 
 We designed the SMARP data for use in concert with another data product called the Space-Weather HMI Active Region Patches (SHARPs, [Bobra et al. 2014](https://doi.org/10.1007/s11207-014-0529-3)), derived from photospheric magnetic field data taken by the Helioseismic and Magnetic Imager instrument aboard the NASA Solar Dynamics Observatory. Combined, the SMARP and SHARP databases provide a continuous, seamless set of active region data from 1996 until the present day. 
 
-Users can access these data with a [SunPy](https://sunpy.org/) affiliated package called [drms](https://drms.readthedocs.io/en/stable/). If you use `drms` in your research, please cite [The SunPy Community et al. 2020](https://dx.doi.org/10.3847/1538-4357/ab4f7a) and [Glogowski et al. 2019](https://joss.theoj.org/papers/10.21105/joss.01614).
+Users can access these data with a [SunPy](https://sunpy.org/) affiliated package called [drms](https://drms.readthedocs.io/en/stable/). If you use `drms` in your research, please cite [The SunPy Community et al. 2020](https://dx.doi.org/10.3847/1538-4357/ab4f7a) and [Glogowski et al. 2019](https://joss.theoj.org/papers/10.21105/joss.01614). We released v0.1.0 of this repository and published it on Zenodo as [![10.5281/zenodo.5138025](https://zenodo.org/badge/DOI/10.5281/zenodo.5138025.svg)](https://doi.org/10.5281/zenodo.5138025).
 
 ### Contents
 
@@ -30,4 +30,17 @@ This repository contains two folders. The `example_gallery` folder contains seve
 
 ### Citation
 
-If you use the Space-weather MDI Active Region Patch data in your research, please consider citing this repository. 
+If you use the Space-weather MDI Active Region Patch data in your research, please consider citing this repository. Here is the bibtex entry for the repository:
+
+```
+@misc{monica_g_bobra_2021_5138025,
+  author       = {Monica G. Bobra},
+  title        = {mbobra/SMARPs: SMARPs 0.1.0 (2021-07-26)},
+  month        = jul,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {v0.1.0},
+  doi          = {10.5281/zenodo.5138025},
+  url          = {https://doi.org/10.5281/zenodo.5138025}
+}
+```
