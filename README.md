@@ -1,6 +1,6 @@
 SMARPs
 ======
-We derived Space-weather MDI Active Region Patches, or SMARPs, from maps of the solar surface magnetic field taken by the Michelson Doppler Imager (MDI) aboard the ESA/NASA Solar and Heliospheric Observatory (SoHO). These data include maps that track every solar active region observed by MDI, along with keywords that describe the physical characteristics of each active region. These data are stored in a [publicly-available, web-accessible pSQL database](http://jsoc.stanford.edu/ajax/lookdata.html) at Stanford University.
+We derived Space-weather MDI Active Region Patches, or SMARPs, from maps of the solar surface magnetic field taken by the Michelson Doppler Imager (MDI) aboard the ESA/NASA Solar and Heliospheric Observatory (SoHO). These data include maps that track every solar active region observed by MDI, along with keywords that describe the physical characteristics of each active region. These data are stored in a [publicly-available, web-accessible pSQL database](http://jsoc.stanford.edu/ajax/lookdata.html) at Stanford University. We describe these data in detail in [Bobra et al. 2021](https://doi.org/10.3847/1538-4365/ac1f1d) for more details about the SMARP data, published in the *Astrophysical Journal Supplement Series*.
 
 We designed the SMARP data for use in concert with another data product called the Space-Weather HMI Active Region Patches (SHARPs, [Bobra et al. 2014](https://doi.org/10.1007/s11207-014-0529-3)), derived from photospheric magnetic field data taken by the Helioseismic and Magnetic Imager instrument aboard the NASA Solar Dynamics Observatory. Combined, the SMARP and SHARP databases provide a continuous, seamless set of active region data from 1996 until the present day. 
 
@@ -8,7 +8,7 @@ Users can access these data with a [SunPy](https://sunpy.org/) affiliated packag
 
 ### Contents
 
-This repository contains two folders. The `example_gallery` folder contains several notebooks and functions designed to help users understand the SMARP data and how to use the SMARP and SHARP data together. The `paper` folder contains notebooks that reproduce the figures and analysis in the SMARP paper ([Bobra et al. 2021](https://arxiv.org/abs/2108.07918), accepted to the *Astrophysical Journal Supplement Series*). To use these notebooks together with all the requisite Python packages, create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) called smarp using the provided `smarp.yml` environment file like this:
+This repository contains two folders. The `example_gallery` folder contains several notebooks and functions designed to help users understand the SMARP data and how to use the SMARP and SHARP data together. The `paper` folder contains notebooks that reproduce the figures and analysis in the SMARP paper ([Bobra et al. 2021](https://doi.org/10.3847/1538-4365/ac1f1d)). To use these notebooks together with all the requisite Python packages, create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) called smarp using the provided `smarp.yml` environment file like this:
 
 ```
 > conda env create -f smarp.yml
@@ -25,21 +25,25 @@ This repository contains two folders. The `example_gallery` folder contains seve
 
 **Paper**
 
-* The notebooks `Figure1.ipynb`, `Figure2.ipynb`, and `Figure3.ipynb` reproduce the three figures in the SMARP paper, submitted to the *Astrophysical Journal Supplement Series*.
+* The notebooks `Figure1.ipynb`, `Figure2.ipynb`, and `Figure3.ipynb` reproduce the three figures [Bobra et al. 2021](https://doi.org/10.3847/1538-4365/ac1f1d).
 * The notebook `Matching_TARPs_and_HARPs.ipynb` shows how to match HARP regions with TARP regions during the overlap period when both MDI and HMI took data. The SMARP and SHARP data overlap for half a year, between 1 May 2010 and 28 October 2010.
 
 ### Citation
 
-If you use the Space-weather MDI Active Region Patch data in your research, please consider citing our paper ([Bobra et al. 2021](https://arxiv.org/abs/2108.07918), accepted to the *Astrophysical Journal Supplement Series*):
+If you use the Space-weather MDI Active Region Patch data in your research, please consider citing our paper ([Bobra et al. 2021](https://doi.org/10.3847/1538-4365/ac1f1d)):
 
 ```
-@misc{bobra2021,
-      title={SMARPs and SHARPs: Two Solar Cycles of Active Region Data}, 
-      author={Monica G. Bobra and Paul J. Wright and Xudong Sun and Michael J. Turmon},
-      year={2021},
-      eprint={2108.07918},
-      archivePrefix={arXiv},
-      primaryClass={astro-ph.SR},
-      url={https://arxiv.org/abs/2108.07918}
+@article{Bobra_2021,
+	doi = {10.3847/1538-4365/ac1f1d},
+	url = {https://doi.org/10.3847/1538-4365/ac1f1d},
+	year = 2021,
+	month = {sep},
+	publisher = {American Astronomical Society},
+	volume = {256},
+	number = {2},
+	pages = {26},
+	author = {Monica G. Bobra and Paul J. Wright and Xudong Sun and Michael J. Turmon},
+	title = {{SMARPs} and {SHARPs}: Two Solar Cycles of Active Region Data},
+	journal = {The Astrophysical Journal Supplement Series}
 }
 ```
